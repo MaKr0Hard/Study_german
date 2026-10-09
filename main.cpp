@@ -60,7 +60,7 @@ int main(int argc, char *argv[]) {
             std::string type = item.value("type", "");
             if (item.contains("gow") && !item["gow"].is_null()) { //gow basically gender of word
                 std::string gow = item.value("gow", "");
-                std::cout << "word: " << name << ", type: " << type << ", gow: " << gow << '\n';
+                std::cout << "word: " << name << ", type: " << type << ", gow: " << gow << '\n'; //Basically will be put into a std::string and the problem is that a sheet of paper is finite so i'll have to set columns
             } else {
                 std::cout << "word: " << name << ", type: " << type << ", gow: <none>\n"; //This is shit, move to a string and just cout or frintf the whole string
             }
