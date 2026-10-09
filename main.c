@@ -57,7 +57,7 @@ int main(int argc, char *argv[]) {
                 int type;
                 int gender;
                 german[0] = '\0';
-                translation[0] = '\0';//hopeless efforts, keep it ?
+                translation[0] = '\0';
                 if (0 != sscanf(readbuf, "%s : %d : %d : %s", german, &type, &gender, translation)) { //TODO : Make if end-of-file proof or else segfaults
                     the_print_stuff(german, type, gender, translation);
                 }
