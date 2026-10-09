@@ -1,0 +1,10 @@
+
+Hund : 0 : 0 : dog
+
+# Syntax like that -> german : type : gender (0 for masculine, 1 for feminine and 2 for neutral) : translation
+# types :
+# 0 : noun
+# 1 : verb
+# 2 : adjective
+
+#TODO : add plural
